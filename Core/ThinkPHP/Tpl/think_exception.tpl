@@ -33,7 +33,7 @@ h1{ font-size: 32px; line-height: 48px; }
 			<p>FILE: <?php echo $e['file'] ;?> &#12288;LINE: <?php echo $e['line'];?></p>
 		</div>
 	</div>
-<?php }?>
+<?php ?>
 <?php if(isset($e['trace'])) ?>
 	<div class="info">
 		<div class="title">
@@ -43,7 +43,7 @@ h1{ font-size: 32px; line-height: 48px; }
 			<p><?php echo nl2br($e['trace']);?></p>
 		</div>
 	</div>
-<?php }?>
+<?php ?>
 </div>
 </div>
 <div class="copyright">
