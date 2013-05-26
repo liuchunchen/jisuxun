@@ -24,7 +24,7 @@ h1{ font-size: 32px; line-height: 48px; }
 <p class="face">:(</p>
 <h1><?php echo strip_tags($e['message']);?></h1>
 <div class="content">
-<?php if(isset($e['file'])) {?>
+<?php if(isset($e['file'])) ?>
 	<div class="info">
 		<div class="title">
 			<h3>错误位置</h3>
@@ -34,7 +34,7 @@ h1{ font-size: 32px; line-height: 48px; }
 		</div>
 	</div>
 <?php }?>
-<?php if(isset($e['trace'])) {?>
+<?php if(isset($e['trace'])) ?>
 	<div class="info">
 		<div class="title">
 			<h3>TRACE</h3>
