@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:#CA2523
+}
+#top{
+    height:234px;
+    width:100%;
+    margin-top:50px;
+    background:url(../images/wh01.jpg) no-repeat center bottom;
+    background-color:#FFF;
+}
+#foot{
+    width:100%;
+    height:60px;
+    background:url(../images/wh02.jpg) no-repeat center center;
+}
