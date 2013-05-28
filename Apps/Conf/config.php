@@ -9,7 +9,7 @@ return array(
     'DB_PORT'                   =>  '3306',
     'DB_PREFIX'                 =>  'think_',
     'APP_AUTOLOAD_PATH'         =>  '@.TagLib',
-    'APP_GROUP_LIST'            =>  'Home,Maintain,Service',
+    'APP_GROUP_LIST'            =>  'Home,Maintain,Service,Index',
     'DEFAULT_GROUP'             =>  'Maintain',
     'APP_GROUP_MODE'            =>  1,
     'SHOW_PAGE_TRACE'           =>  1//显示调试信息

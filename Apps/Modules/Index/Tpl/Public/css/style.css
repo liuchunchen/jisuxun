@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+	background-color:#CC00FF;
+}
+.block{
+	height:318px;
+	width:318px;
+	margin:1px;
+	text-align:center;
+	float:left;
+}
+#content{
+	width:960px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+}
+.block_red{
+	background-color:red;
+}
+.block_blue{
+	background-color:blue;
+}
+.block_yellow{
+	background-color:yellow;
+}
+.block_green{
+	background-color:green;
+}
+
+#header{
+	width:960px;
+	height:163px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	background-color:#FFAA33;
+}
+#logo{
+	width:320px;
+	height:163px;
+	background: url("../images/logo.png");
+}
+#navigator{
+	width:960px;
+	height:40px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	background-color:#666666;
+}
+.nav{
+	width:80px;
+	height:40px;
+	float:left;
+	font:bold 17px/20px Microsoft YaHei;
+	text-align:center;
+	vertical-align:middle;
+	line-height:40px; /* should be the same as height */
+}
+#city{
+	float:right;
+}
