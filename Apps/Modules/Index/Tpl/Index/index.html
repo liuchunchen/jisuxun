@@ -12,31 +12,20 @@
     <div class="nav" id="city"> 上海站 </div>
 </div>
 <div id="content">
-    <div class="block block_red"> red block </div>
-    <div class="block block_blue"> blue block </div>
-    <div class="block block_yellow"> yellow block </div>
-    <div class="block block_green"> green block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_blue"> blue block </div>
-    <div class="block block_yellow"> yellow block </div>
-    <div class="block block_green"> green block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_blue"> blue block </div>
-    <div class="block block_yellow"> yellow block </div>
-    <div class="block block_green"> green block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_blue"> blue block </div>
-    <div class="block block_yellow"> yellow block </div>
-    <div class="block block_green"> green block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_red"> red block </div>
-    <div class="block block_blue"> blue block </div>
-    <div class="block block_yellow"> yellow block </div>
-    <div class="block block_green"> green block </div>
-    <div class="block block_red"> red block </div>
+    <volist name="data" id="vo">
+        <div class="block {$vo.color}">
+            <br/><br/><br/>
+            {$vo.card.type}<br/>
+            {$vo.card.description}<br/>
+            {$vo.card.card_no}<br/>
+            {$vo.card.phone}<br/>
+            {$vo.card.name}<br/>
+            {$vo.card.create_time}<br/>
+            {$vo.card.expire_time}<br/>
+            {$vo.card.lost_period}<br/>
+            {$vo.card.lost_area}<br/>
+        </div>
+    </volist>
 </div>
 
 <include file="Public:footer" />
